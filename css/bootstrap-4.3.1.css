@@ -175,7 +175,8 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 }
 
 a:not([href]):not([tabindex]):focus {
-  outline: 0;
+    outline: 0;
+    color: #81D074;
 }
 
 pre,
@@ -481,6 +482,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+	margin-left: 110px;
 }
 
 .img-thumbnail {
@@ -617,6 +619,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+	
 }
 
 .col {
@@ -2423,8 +2426,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #85bb65;
+  border-color: #85bb65;
 }
 
 .btn-primary:hover {
@@ -2951,8 +2954,9 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #23d000;
   text-decoration: none;
+	background color: #81D074;
 }
 
 .btn-link:hover {
@@ -10052,4 +10056,31 @@ a.text-dark:hover, a.text-dark:focus {
 .btn {
 	border-color: rgba(129,208,116,1.00);
 	
+}
+
+
+.img-fluid {
+	margin-left: 115px
+}
+
+.img-fluid1 {
+	margin-left: 110px
+}
+
+
+.img-fluid2 {
+	margin-left: 40px;
+	
+}
+
+.img-fluid3 {
+	margin-left: 120px;
+}
+
+.img-fluid4 {
+	margin-left: 85px;
+}
+
+.img-fluid5 {
+	margin-left: 70px;
 }
